@@ -99,7 +99,7 @@ label {
 main {
   display:flex; flex-direction:column; justify-content:center;
   margin: 0 auto;
-  min-height:100vh;
+  max-height: 100vh;
   background-color: var(--black);
   color: var(--white)
 }
@@ -118,12 +118,6 @@ header {
   filter: invert(71%) sepia(26%) saturate(3722%) hue-rotate(215deg) brightness(83%) contrast(100%);
 }
 
-
-@media only screen and (max-device-width: 480px){
-  main {
-    height: 80vh !important;
-  }
-}
 
 @media only screen and (min-device-width: 480px){
   main {
