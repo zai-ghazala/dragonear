@@ -144,6 +144,8 @@ h1 {
 .draggable {
   position: absolute;
   z-index: 9999;
+  top: 50vh;
+  left: 25vh;
   cursor: move;
   user-select: none;
   touch-action: none;

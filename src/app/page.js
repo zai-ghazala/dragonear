@@ -30,7 +30,7 @@ export default function Home() {
 
 
         <Image src={'/dragonear.png'} alt="Logo" width="100" height="100"/>
-      <h1>DRAGON-EAR</h1>
+      <h1>DRAGONEAR</h1>
         </div>
         </header>
       </main>
