@@ -69,8 +69,7 @@ label {
 
 
 #ear {
-  height: 100%;
-  filter:grayscale();
+  filter: grayscale();
 }
 
 .slider {
@@ -127,6 +126,12 @@ header {
   border-bottom: 10px dashed gold;
   border-left: 5px solid var(--lilac);
 
+}
+
+@media only screen and (max-device-width: 480px){
+  main {
+    height: 100vh !important;
+  }
 }
 
 @media only screen and (min-device-width: 480px){
