@@ -1,7 +1,10 @@
-import { Inter } from "next/font/google";
+import { Karla } from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const karla = Karla({
+  subsets: ['latin'],
+  variable: '--font-karla',
+})
 
 export const metadata = {
   title: "Create Next App",
@@ -11,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={karla.variable}>{children}</body>
     </html>
   );
 }
