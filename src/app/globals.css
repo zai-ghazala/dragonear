@@ -121,7 +121,7 @@ header {
 
 @media only screen and (max-device-width: 480px){
   main {
-    height: 90vh !important;
+    height: 80vh !important;
   }
 }
 
