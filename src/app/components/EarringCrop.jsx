@@ -34,7 +34,7 @@ const EarringCrop = () => {
 
 return (
     <>
-      <label htmlFor="upload-photo" className="flex flex-row"><Image className="lilac" src={'/earrings.png'} alt="Upload" width="70" height="70" />+</label>
+      <label htmlFor="upload-photo" className="flex flex-row"><Image className="lilac" src={'/earrings.png'} alt="Upload" width="60" height="60" />+</label>
       <input
         type="file"
         onChange={handleFileChange}

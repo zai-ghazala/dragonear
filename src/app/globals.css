@@ -57,7 +57,7 @@ input {
 
 .ear-container {
   background-color: #d1d1d1;
-  height: 100%;
+  height: 75%;
   border: 5px solid var(--lilac);
 }
 
@@ -106,31 +106,22 @@ main {
 
 header {
   color: var(--black);
-
   border-left: 5px solid var(--lilac);
   border-right: 5px solid var(--lilac);
 }
 
 .buttons {
-  border-top: 5px dashed gold;
+  border-top: 5px solid var(--lilac);
 }
 
 .lilac {
   filter: invert(71%) sepia(26%) saturate(3722%) hue-rotate(215deg) brightness(83%) contrast(100%);
-  margin: 1em;
 }
 
-.title {
-  padding: 0 0 0 1em;
-  color: var(--lilac);
-  border-bottom: 10px dashed gold;
-  border-left: 5px solid var(--lilac);
-
-}
 
 @media only screen and (max-device-width: 480px){
   main {
-    height: 100vh !important;
+    height: 90vh !important;
   }
 }
 

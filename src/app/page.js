@@ -6,33 +6,30 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="w-full relative">
+    <main className="w-full">
 
 
 
-<header className="w-full buttons">
+<header className="buttons flex justify-between items-center">
 
-<div className="flex justify-end">
 
+
+<div>
+<Image src={'/dragonear.png'} alt="Logo" width="150" height="150"/>
+
+</div>
+
+<div>
 
       <ImageCropProvider>
 
       <EarringCrop/>
       </ImageCropProvider>
       </div>
-
       </header>
 <div className="ear-container">
       <img src={'/13467.jpg'} alt="ear" id="ear"/>
       </div>
-        <header className="w-full title">
-        <div className="flex justify-start flex-row">
-
-
-        <Image src={'/dragonear.png'} alt="Logo" width="100" height="100"/>
-      <h1>DRAGONEAR</h1>
-        </div>
-        </header>
       </main>
   );
 }
