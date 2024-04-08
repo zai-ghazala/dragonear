@@ -141,7 +141,7 @@ h1 {
   position: absolute;
   z-index: 9999;
   top: 50vh;
-  left: 25vh;
+  left: 50vw;
   cursor: move;
   user-select: none;
   touch-action: none;
