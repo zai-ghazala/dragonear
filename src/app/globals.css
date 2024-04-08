@@ -99,7 +99,7 @@ label {
 main {
   display:flex; flex-direction:column; justify-content:center;
   margin: 0 auto;
-  max-height: 100vh;
+  height: 100vh;
   background-color: var(--black);
   color: var(--white)
 }
