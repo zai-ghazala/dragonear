@@ -42,7 +42,7 @@ return (
         id="upload-photo"
         accept="image/*" />
 
-      {previewArray.map((url, idx) => <img className="draggable" key={`image-${idx}`} ref={ref} width="100" height="100" src={url} alt="jewellery"/>)}
+      {previewArray.map((url, idx) => <img draggable="false" className="draggable" key={`image-${idx}`} ref={ref} width="100" height="100" src={url} alt="jewellery"/>)}
 
       <Modal open={openModal} closeIcon={null} footer={null}>
         <ImageCropModalContent handleDone={handleDone} handleClose={() => setOpenModal(false)} />

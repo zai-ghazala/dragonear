@@ -14,11 +14,13 @@ export default function Home() {
 
 
 
-<div>
+<div className="flex flex-row  items-center">
 <Image src={'/dragonear.png'} alt="Logo" width="150" height="150"/>
-
+<div className="flex flex-col info">
+<h1>dragonear</h1>
+<p>add jewellery and drop in the desired locations!</p>
 </div>
-
+</div>
 <div>
 
       <ImageCropProvider>
@@ -28,7 +30,9 @@ export default function Home() {
       </div>
       </header>
 <div className="ear-container">
-      <img src={'/13467.jpg'} alt="ear" id="ear"/>
+      <img src={'/ear.png'} alt="ear" className="ear" id="left"/>
+
+      <img src={'/ear.png'} alt="ear" className="ear" id="right"/>
       </div>
       </main>
   );

@@ -9,7 +9,7 @@
 }
 
 body {
-  background: var(--black);
+  background: #d1d1d1;
   font-weight: 600;
   font-family: var(--font-karla)
 }
@@ -23,7 +23,7 @@ body {
 .ant-modal .ant-modal-content {
   background-color: var(--lilac);
   color: var(--black);
-  box-shadow: none 
+  box-shadow: none
 }
 
 input {
@@ -44,6 +44,7 @@ input {
   width: 236px;
   height: 236px;
 }
+
 .reactEasyCrop_CropArea {
   color: rgba(255, 255, 255, 0.8) !important;
 }
@@ -56,20 +57,29 @@ input {
 }
 
 .ear-container {
-  background-color: #d1d1d1;
-  height: 75%;
-  border: 5px solid var(--lilac);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  display: flex;
+  flex-direction: row;
 }
 
 label {
-  color:  var(--lilac) !important;
+  color: var(--lilac) !important;
   font-size: 2em;
-  margin-right: 0.5em
+  margin-right: 0.5em;
+  cursor: pointer;
 }
 
 
-#ear {
+.ear {
   filter: grayscale();
+  width: 50%;
+}
+
+#left {
+  transform: scaleX(-1);
 }
 
 .slider {
@@ -92,26 +102,23 @@ label {
 .slider::-moz-range-thumb {
   width: 25px;
   height: 25px;
-  background:  var(--black);
+  background: var(--black);
   cursor: pointer;
 }
 
 main {
-  display:flex; flex-direction:column; justify-content:center;
   margin: 0 auto;
-  height: 100vh;
-  background-color: var(--black);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
   color: var(--white)
 }
 
 header {
-  color: var(--black);
-  border-left: 5px solid var(--lilac);
-  border-right: 5px solid var(--lilac);
-}
-
-.buttons {
+  background-color: var(--black);
   border-top: 5px solid var(--lilac);
+  border-bottom: 5px solid var(--lilac);
 }
 
 .lilac {
@@ -119,24 +126,28 @@ header {
 }
 
 
-@media only screen and (min-device-width: 480px){
-  main {
-    width: 480px !important;
-  }
+h1 {
+  font-size: 2.5em;
+  color: var(--lilac);
+  font-style: italic;
 }
 
-h1 {
-  font-size: 2em;
-  margin: 1em 0;
-  margin-block-end: 0
+p {
+  color: var(--white);
+}
+
+.info {
+  width: 20vw
 }
 
 .draggable {
   position: absolute;
   z-index: 9999;
-  top: 50vh;
-  left: 50vw;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
   cursor: move;
   user-select: none;
   touch-action: none;
 }
+
