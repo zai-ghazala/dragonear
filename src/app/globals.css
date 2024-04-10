@@ -9,7 +9,8 @@
 }
 
 body {
-  background-color: #d1d1d1;
+  background-image: radial-gradient(#fff 33%,#d1d1d1, var(--lilac));
+  height: 100vh;
   font-weight: 600;
   font-family: var(--font-karla)
 }
@@ -120,7 +121,7 @@ main {
 }
 
 header {
-  background-color: var(--black);
+  background-image: linear-gradient(to right, var(--black), #686868);
   border-top: 5px solid var(--lilac);
   border-bottom: 5px solid var(--lilac);
   height: 10vh;
