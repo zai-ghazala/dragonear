@@ -27,8 +27,8 @@ body {
   box-shadow: none
 }
 
-.logo, .lilac-button {
-  width: 10vw;
+.logo {
+  width: 160px;
 }
 
 input {
@@ -136,7 +136,7 @@ h1 {
   font-size: 5vw;
   font-weight: 900;
   background-image: linear-gradient(to right, #49195c, #b85abc, var(--lilac), #d1d1d1);
-  -webkit-text-stroke: 2px black;
+  -webkit-text-stroke: 0.1vw black;
   background-clip: text;
   -webkit-text-fill-color: transparent;
   font-style: italic;
