@@ -27,7 +27,7 @@ body {
   box-shadow: none
 }
 
-.logo {
+.logo, .lilac-button {
   width: 10vw;
 }
 
@@ -127,7 +127,7 @@ header {
   height: 10vh;
 }
 
-.lilac {
+.lilac-button {
   filter: invert(71%) sepia(26%) saturate(3722%) hue-rotate(215deg) brightness(83%) contrast(100%);
 }
 
