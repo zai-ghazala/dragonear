@@ -9,17 +9,17 @@ export default function Home() {
     <main className="w-full">
 
 
-
+<div className="text flex flex-col info">
+<h1>dragonear</h1>
+<p>add jewellery and drop in the desired locations!</p>
+</div>
 <header className="buttons flex justify-between items-center">
 
 
 
 <div className="flex flex-row  items-center">
-<Image src={'/dragonear.png'} alt="Logo" width="150" height="150"/>
-<div className="flex flex-col info">
-<h1>dragonear</h1>
-<p>add jewellery and drop in the desired locations!</p>
-</div>
+<Image src={'/dragonear.png'} className="logo" alt="Logo" width="150" height="150"/>
+
 </div>
 <div>
 
